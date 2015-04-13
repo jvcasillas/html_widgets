@@ -1,0 +1,70 @@
+---
+title             : "html widget examples"
+author            : ""
+date              : ''
+output            :
+  html_document:
+    theme: cosmo
+    toc: no
+    includes:
+      in_header: in_header.html
+      before_body: before_body.html
+      after_body: after_body.html
+---
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+```{r echo=FALSE}
+library(knitr)
+read_chunk('html_widgets.R')
+```
+
+## leaflet
+
+```{r, 'leaflet1', echo=TRUE}
+```
+
+```{r, 'leaflet2', echo=TRUE}
+```
+
+## dygraphs
+
+```{r, 'linegraph', echo=TRUE}
+```
+
+## metricsgraphics
+
+```{r, 'linegraph2', echo=TRUE}
+```
+
+```{r, 'linegraph3', echo=TRUE}
+```
+
+```{r, 'linegraph4', echo=TRUE}
+```
+
+```{r, 'linegraph5', echo=TRUE}
+```
+
+```{r, 'linegraph6', echo=TRUE}
+```
+
+```{r, 'linegraph7', echo=TRUE}
+```
+
+## networkD3
+
+```{r, 'networks', echo=TRUE}
+```
+
+## DataTables
+
+
+## threejs
+
+```{r, '3dplot', echo=TRUE}
+```
+
+## DiagrammeR
+
+
