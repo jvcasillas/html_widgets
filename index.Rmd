@@ -12,59 +12,125 @@ output            :
       after_body: after_body.html
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is a walkthrough of some of the [html widgets](http://www.htmlwidgets.org/showcase_diagrammer.html) that can be used in Rmarkdown. All of the following examples come from the respective project pages of each package. I have reproduced them here to learn how they work and to add my own personal notes as to how they can be used. The project pages of each package are linked in the headers of their section.
 
 ```{r echo=FALSE}
 library(knitr)
 read_chunk('html_widgets.R')
 ```
 
-## leaflet
+</br>
+
+## [leaflet](http://rstudio.github.io/leaflet/)
 
 ```{r, 'leaflet1', echo=TRUE}
 ```
 
+</br>
+
 ```{r, 'leaflet2', echo=TRUE}
 ```
 
-## dygraphs
+</br>
 
-```{r, 'linegraph', echo=TRUE}
+## [dygraphs](http://rstudio.github.io/dygraphs/index.html)
+
+```{r, 'dygraphs1', echo=TRUE}
 ```
 
-## metricsgraphics
+</br>
 
-```{r, 'linegraph2', echo=TRUE}
+```{r, 'dygraphs2', echo=TRUE}
 ```
 
-```{r, 'linegraph3', echo=TRUE}
+</br>
+
+```{r, 'dygraphs3', echo=TRUE}
 ```
 
-```{r, 'linegraph4', echo=TRUE}
+</br>
+
+```{r, 'dygraphs4', echo=TRUE}
 ```
 
-```{r, 'linegraph5', echo=TRUE}
+</br>
+
+## [metricsgraphics](http://hrbrmstr.github.io/metricsgraphics/)
+
+```{r, 'metricsgraphics1', echo=TRUE}
 ```
 
-```{r, 'linegraph6', echo=TRUE}
+</br>
+
+```{r, 'metricsgraphics2', echo=TRUE}
 ```
 
-```{r, 'linegraph7', echo=TRUE}
+</br>
+
+```{r, 'metricsgraphics3', echo=TRUE}
 ```
 
-## networkD3
+</br>
 
-```{r, 'networks', echo=TRUE}
+```{r, 'metricsgraphics4', echo=TRUE}
 ```
 
-## DataTables
+</br>
 
-
-## threejs
-
-```{r, '3dplot', echo=TRUE}
+```{r, 'metricsgraphics5', echo=TRUE}
 ```
 
-## DiagrammeR
+</br>
+
+```{r, 'metricsgraphics6', echo=TRUE}
+```
+
+</br>
+
+```{r, 'metricsgraphics7', echo=TRUE}
+```
+
+</br>
+
+## [networkD3](http://christophergandrud.github.io/networkD3/)
+
+```{r, 'networkD31', echo=TRUE}
+```
+
+</br>
+
+```{r, 'networkD32', echo=TRUE}
+```
+
+</br>
+
+## [DataTables](http://rstudio.github.io/DT/)
+
+```{r, 'datatable1', echo=TRUE}
+```
+
+</br>
+
+## [threejs](https://github.com/bwlewis/rthreejs)
+
+```{r, 'threejs1', echo=TRUE}
+```
+
+</br>
+
+```{r, 'threejs2', echo=TRUE}
+```
+
+</br>
+
+## [DiagrammeR](https://github.com/rich-iannone/DiagrammeR)
+
+```{r, 'diagrammer1', echo=TRUE}
+```
+
+</br>
+
+```{r, 'diagrammer2', echo=TRUE}
+```
 
 
