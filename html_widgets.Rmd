@@ -1,6 +1,6 @@
 ---
 title             : "html widget examples"
-author            : ""
+author            : "Joseph V. Casillas"
 date              : ''
 output            :
   html_document:

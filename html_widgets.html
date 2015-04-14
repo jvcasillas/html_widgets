@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
+<meta name="author" content="Joseph V. Casillas" />
 
 
 <title>html widget examples</title>
@@ -147,6 +148,7 @@ img {
 
 <div id="header">
 <h1 class="title">html widget examples</h1>
+<h4 class="author"><em>Joseph V. Casillas</em></h4>
 </div>
 
 
@@ -156,8 +158,8 @@ img {
 <pre class="r"><code>library(leaflet)
 m = leaflet() %&gt;% addTiles()
 m  # a map with the default OSM tile layer</code></pre>
-<p><div id="htmlwidget-3166" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-3166">{ "x": {
+<p><div id="htmlwidget-8602" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-8602">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -191,8 +193,8 @@ m  # a map with the default OSM tile layer</code></pre>
 addTiles() %&gt;%
 setView(32.23, -110.95, zoom = 17)
 m</code></pre>
-<p><div id="htmlwidget-9815" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-9815">{ "x": {
+<p><div id="htmlwidget-7536" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-7536">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -233,8 +235,8 @@ m</code></pre>
 <pre class="r"><code>library(dygraphs)
 dygraph(nhtemp, main = &quot;New Haven Temperatures&quot;) %&gt;% 
   dyRangeSelector(dateWindow = c(&quot;1920-01-01&quot;, &quot;1960-01-01&quot;))</code></pre>
-<p><div id="htmlwidget-3773" style="width:672px;height:480px;" class="dygraphs"></div>
-<script type="application/json" data-for="htmlwidget-3773">{ "x": {
+<p><div id="htmlwidget-1610" style="width:672px;height:480px;" class="dygraphs"></div>
+<script type="application/json" data-for="htmlwidget-1610">{ "x": {
  "attrs": {
  "title": "New Haven Temperatures",
 "labels": [ "year", "V1" ],
@@ -275,9 +277,9 @@ tmp %&gt;%
   mjs_line() %&gt;%
   mjs_add_marker(1850, &quot;Something Wonderful&quot;) %&gt;%
   mjs_add_baseline(150, &quot;Something Awful&quot;)</code></pre>
-<p><div id="mjs-1e97feaf8adac4ac876c569f3ed43d" class="metricsgraphics" style="width:672px;height:480px;"></div>
-<div id="mjs-1e97feaf8adac4ac876c569f3ed43d-legend" class="metricsgraphics-legend"></div>
-<script type="application/json" data-for="mjs-1e97feaf8adac4ac876c569f3ed43d">{ "x": {
+<p><div id="mjs-821508862eb4383a8c7618dea4c22c" class="metricsgraphics" style="width:672px;height:480px;"></div>
+<div id="mjs-821508862eb4383a8c7618dea4c22c-legend" class="metricsgraphics-legend"></div>
+<script type="application/json" data-for="mjs-821508862eb4383a8c7618dea4c22c">{ "x": {
  "data": {
  "year": [              1790,              1800,              1810,              1820,              1830,              1840,              1850,              1860,              1870,              1880,              1890,              1900,              1910,              1920,              1930,              1940,              1950,              1960,              1970 ],
 "uspop": [              3.93,              5.31,              7.24, 9.640000000000001,              12.9,              17.1,              23.2,              31.4,              39.8,              50.2,              62.9,                76,                92,             105.7,             122.8,             131.7,             151.3,             179.3,             203.2 ] 
@@ -342,7 +344,7 @@ tmp %&gt;%
 "legend_target": null,
 "y_extended_ticks": false,
 "x_extended_ticks": false,
-"target": "#mjs-1e97feaf8adac4ac876c569f3ed43d",
+"target": "#mjs-821508862eb4383a8c7618dea4c22c",
 "full_width": true,
 "full_height": true,
 "animate_on_load": false 
@@ -351,9 +353,9 @@ tmp %&gt;%
   mjs_plot(x=uspop, y=year, width=500, height=400) %&gt;%
   mjs_bar() %&gt;%
   mjs_axis_x(xax_format = 'plain')</code></pre>
-<p><div id="mjs-eb4deda80c12dbcd229940885e3c04" class="metricsgraphics" style="width:500px;height:400px;"></div>
-<div id="mjs-eb4deda80c12dbcd229940885e3c04-legend" class="metricsgraphics-legend"></div>
-<script type="application/json" data-for="mjs-eb4deda80c12dbcd229940885e3c04">{ "x": {
+<p><div id="mjs-56430c82f226737d31127fdb11a8fd" class="metricsgraphics" style="width:500px;height:400px;"></div>
+<div id="mjs-56430c82f226737d31127fdb11a8fd-legend" class="metricsgraphics-legend"></div>
+<script type="application/json" data-for="mjs-56430c82f226737d31127fdb11a8fd">{ "x": {
  "data": {
  "year": [ "1790", "1800", "1810", "1820", "1830", "1840", "1850", "1860", "1870", "1880", "1890", "1900", "1910", "1920", "1930", "1940", "1950", "1960", "1970" ],
 "uspop": [              3.93,              5.31,              7.24, 9.640000000000001,              12.9,              17.1,              23.2,              31.4,              39.8,              50.2,              62.9,                76,                92,             105.7,             122.8,             131.7,             151.3,             179.3,             203.2 ] 
@@ -406,15 +408,15 @@ tmp %&gt;%
 "legend_target": null,
 "y_extended_ticks": false,
 "x_extended_ticks": false,
-"target": "#mjs-eb4deda80c12dbcd229940885e3c04" 
+"target": "#mjs-56430c82f226737d31127fdb11a8fd" 
 },"evals": [  ] }</script></p>
 <pre class="r"><code>mtcars %&gt;%
   mjs_plot(x=wt, y=mpg, width=600, height=500) %&gt;%
   mjs_point(color_accessor=carb, size_accessor=carb) %&gt;%
   mjs_labs(x=&quot;Weight of Car&quot;, y=&quot;Miles per Gallon&quot;)</code></pre>
-<p><div id="mjs-b06e4b75d5c9a66b3c06d2c64aa29b" class="metricsgraphics" style="width:600px;height:500px;"></div>
-<div id="mjs-b06e4b75d5c9a66b3c06d2c64aa29b-legend" class="metricsgraphics-legend"></div>
-<script type="application/json" data-for="mjs-b06e4b75d5c9a66b3c06d2c64aa29b">{ "x": {
+<p><div id="mjs-002c260c038aefccb70eeb4723fd9a" class="metricsgraphics" style="width:600px;height:500px;"></div>
+<div id="mjs-002c260c038aefccb70eeb4723fd9a-legend" class="metricsgraphics-legend"></div>
+<script type="application/json" data-for="mjs-002c260c038aefccb70eeb4723fd9a">{ "x": {
  "data": {
  "mpg": [                21,                21,              22.8,              21.4,              18.7,              18.1,              14.3,              24.4,              22.8,              19.2,              17.8,              16.4,              17.3,              15.2,              10.4,              10.4,              14.7,              32.4,              30.4,              33.9,              21.5,              15.5,              15.2,              13.3,              19.2,              27.3,                26,              30.4,              15.8,              19.7,                15,              21.4 ],
 "cyl": [                 6,                 6,                 4,                 6,                 8,                 6,                 8,                 4,                 4,                 6,                 6,                 8,                 8,                 8,                 8,                 8,                 8,                 4,                 4,                 4,                 4,                 8,                 8,                 8,                 8,                 4,                 4,                 4,                 8,                 6,                 8,                 4 ],
@@ -478,7 +480,7 @@ tmp %&gt;%
 "legend_target": null,
 "y_extended_ticks": false,
 "x_extended_ticks": false,
-"target": "#mjs-b06e4b75d5c9a66b3c06d2c64aa29b" 
+"target": "#mjs-002c260c038aefccb70eeb4723fd9a" 
 },"evals": [  ] }</script></p>
 <pre class="r"><code>mtcars %&gt;%
   mjs_plot(x=wt, y=mpg, width=600, height=500) %&gt;%
@@ -490,9 +492,9 @@ tmp %&gt;%
             color_range=brewer.pal(n=11, name=&quot;RdBu&quot;)[c(1, 5, 11)]) %&gt;%
   mjs_labs(x=&quot;Weight of Car&quot;, y=&quot;Miles per Gallon&quot;) %&gt;%
   mjs_add_legend(legend=&quot;X&quot;)</code></pre>
-<p><div id="mjs-ef3102e49db95f3eb0c3e0ebaf0ac4" class="metricsgraphics" style="width:600px;height:500px;"></div>
-<div id="mjs-ef3102e49db95f3eb0c3e0ebaf0ac4-legend" class="metricsgraphics-legend"></div>
-<script type="application/json" data-for="mjs-ef3102e49db95f3eb0c3e0ebaf0ac4">{ "x": {
+<p><div id="mjs-c868a53e15d0e3d3b486cda712319a" class="metricsgraphics" style="width:600px;height:500px;"></div>
+<div id="mjs-c868a53e15d0e3d3b486cda712319a-legend" class="metricsgraphics-legend"></div>
+<script type="application/json" data-for="mjs-c868a53e15d0e3d3b486cda712319a">{ "x": {
  "data": {
  "mpg": [                21,                21,              22.8,              21.4,              18.7,              18.1,              14.3,              24.4,              22.8,              19.2,              17.8,              16.4,              17.3,              15.2,              10.4,              10.4,              14.7,              32.4,              30.4,              33.9,              21.5,              15.5,              15.2,              13.3,              19.2,              27.3,                26,              30.4,              15.8,              19.7,                15,              21.4 ],
 "cyl": [                 6,                 6,                 4,                 6,                 8,                 6,                 8,                 4,                 4,                 6,                 6,                 8,                 8,                 8,                 8,                 8,                 8,                 4,                 4,                 4,                 4,                 8,                 8,                 8,                 8,                 4,                 4,                 4,                 8,                 6,                 8,                 4 ],
@@ -553,18 +555,18 @@ tmp %&gt;%
 "multi_line": null,
 "geom": "point",
 "legend": "X",
-"legend_target": "#mjs-ef3102e49db95f3eb0c3e0ebaf0ac4-legend",
+"legend_target": "#mjs-c868a53e15d0e3d3b486cda712319a-legend",
 "y_extended_ticks": false,
 "x_extended_ticks": false,
-"target": "#mjs-ef3102e49db95f3eb0c3e0ebaf0ac4" 
+"target": "#mjs-c868a53e15d0e3d3b486cda712319a" 
 },"evals": [  ] }</script></p>
 <pre class="r"><code>mtcars %&gt;%
   mjs_plot(x=wt, y=mpg, width=600, height=500) %&gt;%
   mjs_point(least_squares=TRUE) %&gt;%
   mjs_labs(x=&quot;Weight of Car&quot;, y=&quot;Miles per Gallon&quot;)</code></pre>
-<p><div id="mjs-fddf29b86ab1b471ba51ccdcb95eec" class="metricsgraphics" style="width:600px;height:500px;"></div>
-<div id="mjs-fddf29b86ab1b471ba51ccdcb95eec-legend" class="metricsgraphics-legend"></div>
-<script type="application/json" data-for="mjs-fddf29b86ab1b471ba51ccdcb95eec">{ "x": {
+<p><div id="mjs-15fc80678fada31de6b2bd7348cda9" class="metricsgraphics" style="width:600px;height:500px;"></div>
+<div id="mjs-15fc80678fada31de6b2bd7348cda9-legend" class="metricsgraphics-legend"></div>
+<script type="application/json" data-for="mjs-15fc80678fada31de6b2bd7348cda9">{ "x": {
  "data": {
  "mpg": [                21,                21,              22.8,              21.4,              18.7,              18.1,              14.3,              24.4,              22.8,              19.2,              17.8,              16.4,              17.3,              15.2,              10.4,              10.4,              14.7,              32.4,              30.4,              33.9,              21.5,              15.5,              15.2,              13.3,              19.2,              27.3,                26,              30.4,              15.8,              19.7,                15,              21.4 ],
 "cyl": [                 6,                 6,                 4,                 6,                 8,                 6,                 8,                 4,                 4,                 6,                 6,                 8,                 8,                 8,                 8,                 8,                 8,                 4,                 4,                 4,                 4,                 8,                 8,                 8,                 8,                 4,                 4,                 4,                 8,                 6,                 8,                 4 ],
@@ -628,7 +630,7 @@ tmp %&gt;%
 "legend_target": null,
 "y_extended_ticks": false,
 "x_extended_ticks": false,
-"target": "#mjs-fddf29b86ab1b471ba51ccdcb95eec" 
+"target": "#mjs-15fc80678fada31de6b2bd7348cda9" 
 },"evals": [  ] }</script></p>
 <pre class="r"><code>set.seed(1492)
 stocks &lt;- data.frame(
