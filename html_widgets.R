@@ -12,7 +12,7 @@ m  # a map with the default OSM tile layer
 ## @knitr leaflet2
 m = leaflet() %>% 
 addTiles() %>%
-setView(-110.950282, 32.232402, zoom = 18) %>%
+setView(-110.950282, 32.232402, zoom = 17) %>%
 addPopups(-110.950282, 32.232906, 'Here is the <b>Department of Spanish and Portuguese</b>, UofA')
 m
 
