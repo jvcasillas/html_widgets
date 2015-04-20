@@ -7,9 +7,9 @@ output            :
     theme: cosmo
     toc: no
     includes:
-      in_header: in_header.html
-      before_body: before_body.html
-      after_body: after_body.html
+      in_header: includes/in_header.html
+      before_body: includes/before_body.html
+      after_body: includes/after_body.html
 ---
 
 This is a walkthrough of some of the [html widgets](http://www.htmlwidgets.org/showcase_diagrammer.html) that can be used in Rmarkdown. All of the following examples come from the respective project pages of each package. I have reproduced them here to learn how they work and to add my own personal notes as to how they can be used. The project pages of each package are linked in the headers of their section.
