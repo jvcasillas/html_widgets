@@ -181,7 +181,7 @@ N <- 100
 i <- sample(3, N, replace=TRUE)
 x <- matrix(rnorm(N*3),ncol=3)
 lab <- c("small", "bigger", "biggest")
-scatterplot3js(x, color=rainbow(N), labels=lab[i], size=i, renderer="canvas")
+scatterplot3js(x, color = rainbow(N), labels = lab[i], size = i)
 
 
 ## @knitr diagrammer1
