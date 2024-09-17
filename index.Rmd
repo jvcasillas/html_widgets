@@ -55,43 +55,6 @@ read_chunk('html_widgets.R')
 
 </br>
 
-## [metricsgraphics](http://hrbrmstr.github.io/metricsgraphics/)
-
-```{r, 'metricsgraphics1', echo=TRUE}
-```
-
-</br>
-
-```{r, 'metricsgraphics2', echo=TRUE}
-```
-
-</br>
-
-```{r, 'metricsgraphics3', echo=TRUE}
-```
-
-</br>
-
-```{r, 'metricsgraphics4', echo=TRUE}
-```
-
-</br>
-
-```{r, 'metricsgraphics5', echo=TRUE}
-```
-
-</br>
-
-```{r, 'metricsgraphics6', echo=TRUE}
-```
-
-</br>
-
-```{r, 'metricsgraphics7', echo=TRUE}
-```
-
-</br>
-
 ## [networkD3](http://christophergandrud.github.io/networkD3/)
 
 ```{r, 'networkD31', echo=TRUE}

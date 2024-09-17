@@ -62,9 +62,7 @@ library(htmlwidgets)
 library(metricsgraphics)
 library(RColorBrewer)
 
-tmp <- data.frame(year=seq(1790, 1970, 10), uspop=as.numeric(uspop))
-
-tmp %>%
+data.frame(year=seq(1790, 1970, 10), uspop=as.numeric(uspop)) %>%
   mjs_plot(x=year, y=uspop) %>%
   mjs_line() %>%
   mjs_add_marker(1850, "Something Wonderful") %>%
@@ -72,10 +70,10 @@ tmp %>%
 
 
 ## @knitr metricsgraphics2
-tmp %>%
-  mjs_plot(x=uspop, y=year, width=500, height=400) %>%
-  mjs_bar() %>%
-  mjs_axis_x(xax_format = 'plain')
+#tmp %>%
+#  mjs_plot(x=uspop, y=year, width=500, height=400) %>%
+#  mjs_bar() %>%
+#  mjs_axis_x(xax_format = 'plain')
 
 
 ## @knitr metricsgraphics3
